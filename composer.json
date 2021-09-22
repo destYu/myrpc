@@ -1,0 +1,21 @@
+{
+    "name": "destyu/base",
+    "description": "my test package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "My\\": "src/My"
+        }
+    },
+    "authors": [
+        {
+            "name": "xiaoyuer",
+            "email": "xiaoyuer@admin.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2"
+    }
+}
